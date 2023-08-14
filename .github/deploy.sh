@@ -7,16 +7,10 @@ git config user.email "readmebot@users.noreply.github.com"
 
 status=`git status`
 
-if [[ $status == *"README.md"* ]]
-then
-  git add README.md
-  git commit -m "[auto] [ci skip] Generate README"
-fi
-
 if [[ $status == *"ARCHIVE.md"* ]]
 then
   git add ARCHIVE.md
-  git commit -m "[auto] [ci skip] Generate ARCHIVE"
+  git commit -m "[auto] [ci skip] Generate ARCHIVEadd"
 fi
 
 if [[ $status == *"APPSTORE.md"* ]]
@@ -30,5 +24,9 @@ then
   git add LATEST.md
   git commit -m "[auto] [ci skip] Generate LATEST"
 fi
-
+if [[ $status == *"README.md"* ]]
+then
+  git add README.md
+  git commit -m "[auto] [ci skip] Generate README"
+fi
 git push --quiet "https://${GH_TOKEN}@github.com/dkhamsing/open-source-ios-apps" master:master > /dev/null 2>&1
