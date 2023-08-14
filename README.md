@@ -1,15 +1,12 @@
 # Open-Source iOS Apps
-
 <!-- 
 ⚠️ This README is generated, please do not update. To contribute, make changes to contents.json ⚠️ 
  https://github.com/dkhamsing/open-source-ios-apps -->
-
 A collaborative list of open-source `iOS`, `iPadOS`, `watchOS` and `tvOS` apps, your [contribution](https://github.com/dkhamsing/open-source-ios-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:
 
 ![](https://img.shields.io/badge/Projects-1500-green.svg) ![](https://img.shields.io/badge/Updated-August%2013,%202023-lightgrey.svg)
 
-Jump to
-
+Jump T
 - [Apple TV](#apple-tv) 
 - [Apple Watch](#apple-watch) 
 - [Browser](#browser) 
